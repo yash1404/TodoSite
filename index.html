@@ -11,8 +11,9 @@
 			cursor:pointer;
 			font-size:15px;
 			text-transform:capitalize;
-			color:red;
+			color:darkviolet;
 			margin-top:0px;
+			font-weight:600;
 		}
 
 		#unorderlist{
@@ -23,8 +24,8 @@
 		.container{
       position:absolute;
       left:50%;
-      top:15%;
-         transform: translate(-50% ,-15%);
+      top:20%;
+         transform: translate(-50% ,-20%);
 
   }
 
@@ -37,13 +38,24 @@
 
 .head{
 	text-align: center;
+	margin-top:20px;
+
+}
+.para2{
+	text-align:center;
+	color:red;
+	font-weight:700;
+	text-transform:capitalize;
 }
 
 	</style>
 </head>
 <body>
+	<p class="para2">NOTE:For canceling the task simply you can click on task at onces,
+		<br>for deleting the task simply you can click on the task at twice</p>
+
 		<h1 class="head">TODO LIST</h1>
-	
+		
 <div  class="container">
 	
 	<input type="text" placeholder="Add items" id="Items">
