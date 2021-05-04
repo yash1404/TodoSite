@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO APP</title>
+	<style>
+		body{
+			min-height:100%;
+		}
+
+		.para{
+			cursor:pointer;
+			font-size:15px;
+			text-transform:capitalize;
+			color:red;
+			margin-top:0px;
+		}
+
+		#unorderlist{
+			text-align:center;
+			margin-top:100px;
+			  		}
+
+		.container{
+      position:absolute;
+      left:50%;
+      top:15%;
+         transform: translate(-50% ,-15%);
+
+  }
+
+#addbutton{
+	background-color: lightgreen;
+}
+#Items{
+	border:2px solid black;
+}
+
+.head{
+	text-align: center;
+}
+
+	</style>
+</head>
+<body>
+		<h1 class="head">TODO LIST</h1>
+	
+<div  class="container">
+	
+	<input type="text" placeholder="Add items" id="Items">
+	<button id="addbutton">+</button>
+</div>
+<div id="unorderlist"></div>
+	
+<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
+
+
+
